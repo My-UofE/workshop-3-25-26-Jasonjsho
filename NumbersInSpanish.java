@@ -1,0 +1,22 @@
+public class NumbersInSpanish {
+    public static void main(String[] args) {
+       // read the first argument passed to the program
+       int number = Integer.parseInt(args[0]); 
+ 
+       // delete the line below and replace with your code
+        if (number == 1) {
+            System.out.println("uno");
+        } else if ( number == 2 ) {
+            System.out.println("dos");
+        } else if ( number == 3 ) {
+            System.out.println("tres");
+        } else if ( number == 4 ) {
+            System.out.println("cuatro");
+        } else if ( number == 5 ) {
+            System.out.println("cinco");
+        } else {
+            // handle case that number was not in range 1-5
+            System.out.println("Sorry I do not know that!");
+        }
+    }
+ }
