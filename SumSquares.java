@@ -23,10 +23,13 @@ public class SumSquares {
         int endNum = in.nextInt();
 
         int sum = 0;
+        int i = startNum;
 
-        for (int i = startNum; i <= endNum; ++i) {
-        sum = sum + (i*i);
+        while (i<=endNum) {
+            sum = sum + (i*i);
+            ++i;
         }
+
         System.out.println("Sum of Squares from " + startNum + " to " + endNum + ":");
         System.out.println(sum);
     }
